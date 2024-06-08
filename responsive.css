@@ -1,0 +1,638 @@
+@media (min-width: 240px) and (max-width: 479px) {
+  /* **********************menu bar****************** */
+  #nav {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    /* text-align: center; */
+    background-color: #000;
+    overflow: hidden;
+  }
+  .bar i {
+    display: block;
+  }
+  #nav {
+    transition: all 0.5s;
+    display: block;
+    padding: 0px;
+  }
+  #nav li {
+    list-style: none;
+    /* color: #fff; */
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 22px;
+    text-align: center;
+  }
+  #nav li a {
+    color: #fff;
+  }
+  #nav li a:hover {
+    color: #fe5b29;
+  }
+
+
+  /* *****************************2nd header************************************ */
+  .orange {
+    display: none;
+  }
+  /* *******************************home page*********************************** */
+  .home {
+    background-image: url(/assets/banner-bg.png);
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding: 55px 0px 20px 0px;
+    background: none;
+  }
+  .container {
+    padding: 0px 10px 0px 10px;
+  }
+  .h-page {
+    display: block;
+  }
+  .car-rent h1 {
+    font-size: 75px;
+    /* padding-left: 30px; */
+  }
+  .car-rent p {
+    font-size: 20px;
+    /* padding: 25px 0px 20px 40px; */
+  }
+  .read {
+    /* margin-left: 32px; */
+    height: 46px;
+    /* width: 100px; */
+    font-size: 17px;
+    background: #fe5b29;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin-left: 0px;
+    height: 46px;
+    /* width: 100px; */
+    font-size: 17px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+
+  /* ***********************about page******************************** */
+  .img-text {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .jeepp img {
+    display: none;
+  }
+  .about-text h1 {
+    font-size: 45px;
+    color: #474646;
+    padding: 28px 0px 15px 0px;
+  }
+  .about-text p {
+    font-size: 20px;
+    color: #7c7777;
+    line-height: 23px;
+    padding-bottom: 30px;
+  }
+  .jeepp img {
+    width: 100%;
+  }
+
+  /* ***************search your best car********************** */
+  .search-car h1 {
+    font-size: 31px;
+    color: #fff;
+    padding: 30px 0px 10px 0px;
+  }
+  .search-car p {
+    font-size: 19px;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  .type {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .cars {
+    height: 55px;
+    /* width: 100%; */
+    border: none;
+    font-size: 16px;
+    padding-left: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .s-now {
+    cursor: pointer;
+    height: 60px;
+    width: 170px;
+    font-weight: 600;
+    font-size: 17px;
+    background: #fe5b29;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  /* ****************** best offer**************************** */
+  .offer-head h1 {
+    font-size: 37px;
+    /* text-align: center; */
+    padding: 100px 0px 30px 0px;
+    color: #3c3b3b;
+  }
+  .wrap-car {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .jeep img {
+    width: 100%;
+    height: auto;
+  }
+  .jeeps img {
+    width: 100%;
+  }
+  .jeepss img {
+    width: 100%;
+  }
+  .jeepss {
+    width: 100%;
+  }
+  /* ************************ why choose us********************************** */
+  .why-choose h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .safety h1 {
+    font-size: 25px;
+    color: #fff;
+    padding: 8px 0px 7px 0px;
+  }
+  .safety p {
+    font-size: 17px;
+    color: #fff;
+    padding-bottom: 40px;
+  }
+  /* *******************************WHAT SAYS CUSTOMERS**************************************88 */
+  .head-costumer {
+    text-align: center;
+    font-size: 17px;
+    padding: 35px 0px 80px 0px;
+  }
+  .costumer {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .name1 {
+    box-shadow: 0px 0px 10px 10px #ebebea;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  /* *******************************get in touch (contact)************************************** */
+  .get-in-touch {
+    padding-top: 30px;
+  }
+  .head-get h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #363636;
+  }
+  .info {
+    background-color: #fe5b29;
+    /* height: 550px; */
+    padding: 107px 35px 50px 25px;
+    border-top-left-radius: 540px;
+    border-top-right-radius: 540px;
+    margin-top: 50px;
+  }
+  .mail_text {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+  }
+  .massage-bt {
+    height: 110px;
+    width: 100%;
+    margin: 8px;
+    font-size: 17px;
+    padding-top: 25px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+  }
+  /* ***********************footer******************************** */
+  .footer-text {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer {
+    background-color: #302f2f;
+    height: 100%;
+    padding-top: 50px;
+  }
+  .sub-now h1 {
+    font-size: 35px;
+    color: #fff;
+    padding-top: 25px;
+  }
+  .logo {
+    color: #302f2f;
+    gap: 10px;
+    padding-top: 25px;
+  }
+  .foot {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    width: 100%;
+    padding: 70px 0px 50px 0px;
+  }
+}
+
+/* *********************************************************responsive for tab****************************************************************************** */
+
+@media (min-width: 479px) and (max-width: 768px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 80px;
+    padding: 0px 50px 0px 50px;
+  }
+  .container {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* ***********************************Bar+header********************************* */
+
+
+  #nav {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    /* text-align: center; */
+    background-color: #000;
+    overflow: hidden;
+  }
+  .bar i {
+    display: block;
+  }
+  #nav {
+    transition: all 0.5s;
+    display: block;
+    padding: 0px;
+  }
+  #nav li {
+    list-style: none;
+    /* color: #fff; */
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 22px;
+    text-align: center;
+  }
+  #nav li a {
+    color: #fff;
+  }
+  #nav li a:hover {
+    color: #fe5b29;
+  }
+  /* **********************************orange-head2********************************** */
+
+  .icon {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #fa5902; */
+    color: #fff;
+    font-size: 15px;
+  }
+  .orange {
+    background-color: #fe5b29;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  /* ***********************************HOME***************************************************** */
+
+  .home {
+    background-image: url(/assets/banner-bg.png);
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+  }
+  .car-rent h1 {
+    font-size: 62px;
+    padding: 50px 0px 0px 0px;
+  }
+  .car-rent p {
+    font-size: 12px;
+    padding: 30px 0px 40px 0px;
+  }
+  .read {
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    background: #fe5b29;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .contact {
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+  }
+  /* ********************************************about-page****************************************** */
+  .img-text {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    flex-direction: column-reverse;
+  }
+  .jeepp img {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .about-text p {
+    font-size: 15px;
+    color: #7c7777;
+    line-height: 23px;
+    padding-bottom: 20px;
+  }
+  /* **************************************************search your best car**************************************** */
+
+  .cars {
+    height: 45px;
+    width: 60%;
+    border: none;
+    font-size: 16px;
+
+    border-radius: 5px;
+    padding: 0px 9px 0px 2px;
+    margin: 10px 0px 0px 0px;
+  }
+  .s-now {
+    cursor: pointer;
+    /* height: 50px; */
+    width: 45%;
+    font-weight: 600;
+    font-size: 16px;
+    background: #fe5b29;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 30px 0px 0px 0px;
+  }
+  .type {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* width: 96%; */
+    text-align: center;
+  }
+
+  /* ***********************************best offer**************************8 */
+  .wrap-car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .jeep img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .jeeps img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .jeepss img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* ******************************************contact************************************************** */
+  .costumer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* ************************************************************************************************************** */
+
+  .info {
+    background-color: #fe5b29;
+    height: auto;
+    padding: 110px 20px 50px 20px;
+    border-top-left-radius: 540px;
+    border-top-right-radius: 540px;
+    margin-top: 50px;
+  }
+
+  .mail_text {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+  }
+  .details {
+    text-align: center;
+    padding: 45px 88px 0px 75px;
+  }
+  .massage-bt {
+    height: 110px;
+    width: 100%;
+    margin: 8px;
+    font-size: 17px;
+    padding-top: 25px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+  }
+  /* *********************************Footer****************************************888 */
+  .footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer {
+    background-color: #302f2f;
+    height: auto;
+    padding-top: 50px;
+  }
+  .sub-now h1 {
+    font-size: 38px;
+    color: #fff;
+    padding-top: 40px;
+  }
+  .sub-now p {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0px 20px 0px;
+    /* text-align: center; */
+  }
+}
+
+
+/* **************************************************************responsive for ipad  ************************************************************ */
+
+@media (min-width: 769px) and (max-width: 999px){
+ 
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        height: 80px;
+        padding: 0px 50px 0px 50px;
+      }
+      .container {
+        padding: 0px 20px 0px 20px;
+      }
+    
+      /* ***********************************Bar+header********************************* */
+      #nav {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        /* text-align: center; */
+        background-color: #000;
+        overflow: hidden;
+      }
+      .bar i {
+        display: block;
+      }
+      #nav {
+        transition: all 0.5s;
+        display: block;
+        padding: 0px;
+      }
+      #nav li {
+        list-style: none;
+        /* color: #fff; */
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-bottom: 22px;
+        text-align: center;
+      }
+      #nav li a {
+        color: #fff;
+      }
+      #nav li a:hover {
+        color: #fe5b29;
+      }
+
+      /* **********************************************home-page******************************************************* */
+      .car-rent h1 {
+        font-size: 60px;
+    }
+    .home {
+        background-image: url(/assets/banner-bg.png);
+        /* background-position: center; */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        padding: 85px 0px 95px 0px;
+    }
+    .car-rent p {
+        font-size: 16px;
+        padding: 20px 0px 20px 0px;
+    }
+
+
+    /* **********************************************about page******************************************* */
+
+    .jeepp img {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .about-text h1 {
+        font-size: 40px;
+        padding: 28px 0px 15px 0px;
+    }
+    .about-text p {
+        font-size: 16px;
+        color: #7c7777;
+        line-height: 23px;
+        padding-bottom: 30px;
+    }
+    .read {
+        height: 50px;
+        width: 60%;
+        font-size: 17px;
+        background: #FE5B29;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .contact {
+        height: 50px;
+        width: 60%;
+        font-size: 17px;
+        background: #000;
+        color: #fff;
+        border: none;
+        /* margin-left: 10px; */
+    }
+    /* *************************************************search best car*************************************************8 */
+
+    .cars {
+        height: 45px;
+        width: 100%;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 0px 30px 0px 30px;
+    }
+}
